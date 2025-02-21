@@ -1,0 +1,28 @@
+
+
+    <!-- footer -->
+    <footer class="bg-rose-700 text-white mx-auto text-center py-8">&copy;CHAM 2025</footer>
+
+     <!-- script links -->
+      <script src="./script/script.js"></script>
+
+      <script>
+             let lastScrollTop = 0;
+            const navbar = document.getElementById("navbar");
+
+            window.addEventListener("scroll", () => {
+                let scrollTop = window.scrollY;
+
+                if (scrollTop > 100) {
+                    navbar.classList.add("fixed", "bg-blue-900/90", "shadow-md", "backdrop-blur-md");
+                    navbar.classList.remove("absolute", "bg-blue-900/30");
+                } else {
+                    navbar.classList.add("absolute", "bg-blue-900/30");
+                    navbar.classList.remove("fixed", "bg-blue-900/90", "shadow-md");
+                }
+
+                lastScrollTop = scrollTop;
+            });
+      </script>
+</body>
+</html>

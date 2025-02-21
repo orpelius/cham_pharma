@@ -1,0 +1,89 @@
+<%- include("partials/header.ejs") %>
+
+<!-- Banner -->
+<section class="relative w-full">
+    <!-- Banner Image -->
+    <div class="relative">
+        <img id="banner" src="./images/banner2.jpg" alt="Banner" class="w-full h-[60vh] object-cover bg-fixed">
+    </div>
+  
+    <!-- Banner Text -->
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center mt-14">
+        <h1 class="text-white text-4xl font-bold uppercase  bg-black/30 p-6 rounded-xl ">About Us</h1>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-12 px-6 ">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between mt-9">
+        <!-- Image Section (Hidden on Small Screens) -->
+        <div class="hidden md:block md:w-1/2 lg:w-2/5">
+            <img src="/images/pharm_lady_cropped.png" alt="Pharmacy" class="rounded-lg shadow-lg">
+        </div>
+
+        <!-- Text Content (Aligned to the Top) -->
+        <div class="md:w-1/2 px-6">
+            <h2 class="text-4xl font-bold text-blue-900 mb-4 underline underline-offset-8">Who Are We?</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                At <span class="font-semibold">CHAM Pharmacy</span>, we believe that healthcare is more than just medicine—it’s about trust, accessibility, and personalized care. Our commitment goes beyond simply providing prescriptions; we strive to be a reliable healthcare partner for every individual who walks through our doors.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                Over the years, we have built a reputation for excellence in pharmaceutical care by maintaining **high standards of service** and staying up to date with the latest advancements in healthcare. We offer a wide range of products, from prescription medications and over-the-counter drugs to vitamins, supplements, and specialized health products. 
+            </p>
+
+            <!-- History Section -->
+            <div class="mt-6  p-6  rounded-lg">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">Our History</h3>
+                <p class="text-gray-700">
+                    Founded in <span class="font-semibold">[Year of Establishment]</span>, [Your Pharmacy Name] has been a trusted name in healthcare for over <span class="font-semibold">[Number of Years]</span> years. What started as a small neighborhood pharmacy has grown into a well-respected healthcare provider, serving thousands of customers with dedication and expertise. From the beginning, our goal has been simple—to provide **high-quality medications, expert guidance, and exceptional service** to our community.
+                </p>
+            </div>
+
+            <!-- Mission Section -->
+            <div class="mt-6  p-6  rounded-lg">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">Our Mission</h3>
+                <p class="text-gray-700">
+                    We aim to enhance healthcare by offering reliable medications, expert advice, and outstanding customer service. Our goal is to ensure that everyone has access to **affordable, high-quality healthcare solutions**. Through innovation and a patient-first approach, we are committed to making healthcare more **accessible, convenient, and personalized** for every individual we serve.
+                </p>
+            </div>
+
+            <!-- Values Section -->
+            <div class="mt-6  p-6 ">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">Our Core Values</h3>
+                <ul class="text-gray-700 list-disc list-inside space-y-2">
+                    <li>Integrity</li>
+                    <li>Customer-Centric</li>
+                    <li>Innovation</li>
+                    <li>Community Support</li>
+                    <li>Accessibility</li>
+                </ul>
+            </div>
+
+            <!-- Why Choose Us? -->
+            <div class="mt-6  p-6 rounded-lg">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-3">Why Choose Us?</h3>
+                <ul class="text-gray-700 list-disc list-inside space-y-2">
+                    <li>Certified and experienced pharmacists</li>
+                    <li>Wide range of prescription and over-the-counter medications</li>
+                    <li>Fast and reliable service</li>
+                    <li>Personalized patient consultations</li>
+                    <li>Commitment to customer satisfaction</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/cta.ejs") %>
+
+<%- include("partials/footer.ejs") %>
